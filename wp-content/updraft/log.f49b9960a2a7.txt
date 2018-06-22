@@ -1,0 +1,637 @@
+0000.000 (0) Opened log file at time: Thu, 17 Aug 2017 19:17:38 +0000 on https://mun.iiita.ac.in
+0000.042 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.30 WP: 4.7.5 PHP: 5.6.15 (apache2handler, Linux website 4.1.13-100.fc21.x86_64 #1 SMP Tue Nov 10 13:13:20 UTC 2015 x86_64) MySQL: 5.5.5 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 7.2M | 7.5M) multisite: N openssl: OpenSSL 1.0.1k-fips 8 Jan 2015 mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.084 (0) Free space on disk containing Updraft's temporary directory: 51241.5 MB
+0000.127 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.167 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.254 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1502392225, seconds_ago=605233)
+0000.454 (0) Set semaphore last lock (fd) time to 2017-08-17 19:17:39
+0000.496 (0) Semaphore lock (fd) complete
+0000.705 (0) Backup run: resumption=0, nonce=f49b9960a2a7, begun at=1502997458 (1s ago), job type=backup
+0000.781 (0) Scheduling a resumption (1) after 600 seconds (1502998059) in case this run gets aborted
+0000.870 (0) Checking if we have a zip executable available
+0000.911 (0) Testing: /usr/bin/zip
+0000.968 (0) Output: zip warning: binziptest/test.zip not found or empty
+0001.006 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0001.045 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0001.087 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0001.129 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0001.177 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0001.215 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0001.278 (0) Working binary zip found: /usr/bin/zip
+0001.357 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0001.399 (0) Creation of backups of directories: beginning
+0001.525 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.664 (0) Total entities for the zip file: 528 directories, 2557 files (0 skipped as non-modified), 40.8 MB
+0001.712 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.753 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.797 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.838 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.880 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.918 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.6 MB, 2557 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0003.465 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: size is now: 3.10 MB
+0003.552 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 600 files added (on-disk size: 3163.2 KB)
+0003.594 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 700 files added (on-disk size: 3163.2 KB)
+0003.636 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 800 files added (on-disk size: 3163.2 KB)
+0003.677 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 900 files added (on-disk size: 3163.2 KB)
+0003.720 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 1000 files added (on-disk size: 3163.2 KB)
+0003.761 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.8 MB, 2557 files batched, 501 (1002) added so far); re-opening (prior size: 3163.2 KB)
+0005.929 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: size is now: 5.00 MB
+0006.023 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 1100 files added (on-disk size: 5088.7 KB)
+0006.066 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 1200 files added (on-disk size: 5088.7 KB)
+0006.107 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 1300 files added (on-disk size: 5088.7 KB)
+0006.149 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 1400 files added (on-disk size: 5088.7 KB)
+0006.190 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 1500 files added (on-disk size: 5088.7 KB)
+0006.229 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 2557 files batched, 501 (1503) added so far); re-opening (prior size: 5088.7 KB)
+0007.125 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 1600 files added (on-disk size: 5786.9 KB)
+0007.167 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 1700 files added (on-disk size: 5786.9 KB)
+0007.209 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 1800 files added (on-disk size: 5786.9 KB)
+0007.250 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 1900 files added (on-disk size: 5786.9 KB)
+0007.292 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 2000 files added (on-disk size: 5786.9 KB)
+0007.330 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.2 MB, 2557 files batched, 501 (2004) added so far); re-opening (prior size: 5786.9 KB)
+0009.608 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: size is now: 10.20 MB
+0009.692 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 2100 files added (on-disk size: 10427.1 KB)
+0009.733 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 2200 files added (on-disk size: 10427.1 KB)
+0009.775 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 2300 files added (on-disk size: 10427.1 KB)
+0009.818 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 2400 files added (on-disk size: 10427.1 KB)
+0009.865 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: 2500 files added (on-disk size: 10427.1 KB)
+0009.903 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.2 MB, 2557 files batched, 501 (2505) added so far); re-opening (prior size: 10427.1 KB)
+0011.515 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip.tmp: size is now: 14.00 MB
+0011.961 (0) Created plugins zip (0) - 15109.4 KB in 10.4 s (1453.6 KB/s) (SHA1 checksum: 008abd344ff2b9c1567811bd2f0d2e72296a9bdb)
+0012.045 (0) Beginning creation of dump of themes (split every: 400 MB)
+0012.131 (0) Total entities for the zip file: 14 directories, 93 files (0 skipped as non-modified), 3.8 MB
+0012.513 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-themes.zip.tmp: size is now: 2.20 MB
+0012.646 (0) Created themes zip (0) - 2243.3 KB in 0.6 s (4017.7 KB/s) (SHA1 checksum: c6431ff755e36ac8e856bd96dddd0c4a40e277ec)
+0012.729 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0012.771 (0) Looking for candidates to back up in: /data/mun/wp-content/uploads
+0012.813 (0) finding files: 2016: adding to list (1)
+0012.855 (0) finding files: .DS_Store: adding to list (2)
+0012.892 (0) finding files: 2017: adding to list (3)
+0012.925 (0) finding files: siteorigin-widgets: adding to list (4)
+0012.967 (0) finding files: redux: adding to list (5)
+0013.009 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0013.118 (0) Total entities for the zip file: 18 directories, 1933 files (0 skipped as non-modified), 362.3 MB
+0013.163 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0013.202 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (30.4 MB, 1933 files batched, 112 (112) added so far); re-opening (prior size: 0 KB)
+0014.082 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: size is now: 30.30 MB
+0014.168 (0) A useful amount of data was added after this amount of zip processing: 1.8 s (normalised: 1.5 s, rate: 17560.2 KB/s)
+0014.251 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.7718451023102, normalised_time=1.4578383346192, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=107890152)
+0014.330 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: 200 files added (on-disk size: 31055.2 KB)
+0014.372 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: 300 files added (on-disk size: 31055.2 KB)
+0014.413 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 102.9 MB added on this batch (113.2 MB, 1933 files batched, 270 (382) added so far); re-opening (prior size: 31055.2 KB)
+0017.440 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: size is now: 143.50 MB
+0017.527 (0) A useful amount of data was added after this amount of zip processing: 4.1 s (normalised: 3.8 s, rate: 28059.2 KB/s)
+0017.612 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.1314949989319, normalised_time=3.7549665619351, max_time=-1, data points known=0, old_max_bytes=107890152, new_max_bytes=172395919)
+0017.692 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: 400 files added (on-disk size: 146926.5 KB)
+0017.732 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: 500 files added (on-disk size: 146926.5 KB)
+0017.774 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: 600 files added (on-disk size: 146926.5 KB)
+0017.815 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: 700 files added (on-disk size: 146926.5 KB)
+0017.858 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: 800 files added (on-disk size: 146926.5 KB)
+0017.898 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (126.6 MB, 1933 files batched, 501 (883) added so far); re-opening (prior size: 146926.5 KB)
+0022.600 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: size is now: 270.00 MB
+0022.684 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: 900 files added (on-disk size: 276454.6 KB)
+0022.729 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: 1000 files added (on-disk size: 276454.6 KB)
+0022.770 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: 1100 files added (on-disk size: 276454.6 KB)
+0022.812 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: 1200 files added (on-disk size: 276454.6 KB)
+0022.854 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: 1300 files added (on-disk size: 276454.6 KB)
+0022.895 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (54.4 MB, 1933 files batched, 501 (1384) added so far); re-opening (prior size: 276454.6 KB)
+0027.507 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: size is now: 323.70 MB
+0027.596 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: 1400 files added (on-disk size: 331427.3 KB)
+0027.641 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: 1500 files added (on-disk size: 331427.3 KB)
+0027.681 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: 1600 files added (on-disk size: 331427.3 KB)
+0027.723 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: 1700 files added (on-disk size: 331427.3 KB)
+0027.769 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: 1800 files added (on-disk size: 331427.3 KB)
+0027.824 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (33.9 MB, 1933 files batched, 501 (1885) added so far); re-opening (prior size: 331427.3 KB)
+0030.554 (0) Zip: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip.tmp: 1900 files added (on-disk size: 366208.7 KB)
+0032.928 (0) Created uploads zip (0) - 370223.6 KB in 19.9 s (18625.6 KB/s) (SHA1 checksum: fdd9b876c3feb2c5a4e931286b8073beb8aaa598)
+0033.012 (0) Beginning backup of other directories found in the content directory (index: 0)
+0033.054 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0033.095 (0) Looking for candidates to back up in: /data/mun/wp-content
+0033.137 (0) finding files: .DS_Store: adding to list (1)
+0033.179 (0) finding files: plugins: skipping: this is the plugins directory
+0033.217 (0) finding files: upgrade: skipping: excluded by options
+0033.259 (0) finding files: themes: skipping: this is the themes directory
+0033.301 (0) finding files: index.php: adding to list (2)
+0033.343 (0) finding files: updraft: skipping: this is the updraft directory
+0033.385 (0) finding files: uploads: skipping: this is the uploads directory
+0033.469 (0) Total entities for the zip file: 0 directories, 2 files (0 skipped as non-modified), 0 MB
+0033.568 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-others.zip.tmp: size is now: 0.00 MB
+0033.686 (0) Created others zip (0) - 0.9 KB in 0.3 s (3.4 KB/s) (SHA1 checksum: 284828cd249edb74f45f50c3b223f850283da2eb)
+0033.853 (0) Saving backup status to database (elements: 8)
+0033.936 (0) Beginning creation of database dump (WordPress DB)
+0034.020 (0) Testing: /usr/bin/mysqldump
+0034.078 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1209 bytes total)
+0034.121 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0034.246 (0) Table wp_options: Total expected rows (approximate): 386
+0034.343 (0) Table wp_options: Total rows added: 391 in 0.06 seconds
+0034.389 (0) Table wp_options: finishing file (backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_options.table.gz - 204.3 KB)
+0034.519 (0) Table wp_users: Total expected rows (approximate): 10
+0034.565 (0) Table wp_users: Total rows added: 40 in 0.01 seconds
+0034.602 (0) Table wp_users: finishing file (backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_users.table.gz - 4.4 KB)
+0034.728 (0) Table wp_usermeta: Total expected rows (approximate): 303
+0034.785 (0) Table wp_usermeta: Total rows added: 593 in 0.02 seconds
+0034.825 (0) Table wp_usermeta: finishing file (backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_usermeta.table.gz - 6.4 KB)
+0034.950 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0034.993 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0035.034 (0) Table wp_commentmeta: finishing file (backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0035.189 (0) Table wp_comments: Total expected rows (approximate): 1428
+0035.666 (0) Table wp_comments: Total rows added: 3846 in 0.44 seconds
+0035.702 (0) Table wp_comments: finishing file (backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_comments.table.gz - 970.3 KB)
+0035.828 (0) Table wp_links: Total expected rows (approximate): 0
+0035.871 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0035.911 (0) Table wp_links: finishing file (backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_links.table.gz - 0.4 KB)
+0036.129 (0) Table wp_postmeta: Total expected rows (approximate): 1719
+0036.412 (0) Table wp_postmeta: Total rows added: 1701 in 0.24 seconds
+0036.446 (0) Table wp_postmeta: finishing file (backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_postmeta.table.gz - 530.5 KB)
+0036.588 (0) Table wp_posts: Total expected rows (approximate): 647
+0036.795 (0) Table wp_posts: Total rows added: 740 in 0.17 seconds
+0036.855 (0) Table wp_posts: finishing file (backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_posts.table.gz - 262.1 KB)
+0036.985 (0) Table wp_term_relationships: Total expected rows (approximate): 192
+0037.030 (0) Table wp_term_relationships: Total rows added: 192 in 0.00 seconds
+0037.068 (0) Table wp_term_relationships: finishing file (backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_term_relationships.table.gz - 0.9 KB)
+0037.228 (0) Table wp_term_taxonomy: Total expected rows (approximate): 33
+0037.267 (0) Table wp_term_taxonomy: Total rows added: 36 in 0.00 seconds
+0037.307 (0) Table wp_term_taxonomy: finishing file (backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_term_taxonomy.table.gz - 0.7 KB)
+0037.429 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0037.472 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0037.512 (0) Table wp_termmeta: finishing file (backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_termmeta.table.gz - 0.4 KB)
+0037.638 (0) Table wp_terms: Total expected rows (approximate): 34
+0037.683 (0) Table wp_terms: Total rows added: 36 in 0.00 seconds
+0037.717 (0) Table wp_terms: finishing file (backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_terms.table.gz - 0.7 KB)
+0037.843 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_options.table.gz (1/12): adding to final database dump
+0037.931 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_users.table.gz (2/12): adding to final database dump
+0037.969 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_usermeta.table.gz (3/12): adding to final database dump
+0038.099 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_commentmeta.table.gz (4/12): adding to final database dump
+0038.136 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_comments.table.gz (5/12): adding to final database dump
+0038.385 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_links.table.gz (6/12): adding to final database dump
+0038.428 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_postmeta.table.gz (7/12): adding to final database dump
+0038.654 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_posts.table.gz (8/12): adding to final database dump
+0038.795 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_term_relationships.table.gz (9/12): adding to final database dump
+0038.838 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_term_taxonomy.table.gz (10/12): adding to final database dump
+0038.878 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_termmeta.table.gz (11/12): adding to final database dump
+0038.920 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db-table-wp_terms.table.gz (12/12): adding to final database dump
+0038.962 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db.gz: finished writing out complete database file (1952 KB)
+0039.095 (0) Total database tables backed up: 12 (backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db.gz, size: 2027264, checksum (SHA1): 76f94934884bb3c99cb27a9b2a85eb0184c3f178)
+0039.262 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0039.304 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0039.346 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0039.384 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-others.zip: others: This file has not yet been successfully uploaded: will queue
+0039.426 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db.gz: db: This file has not yet been successfully uploaded: will queue
+0039.468 (0) Saving backup history. Total backup size: 380.4 MB
+0039.551 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0039.677 (0) Cloud backup selection (1/1): googledrive (last)
+0039.718 (0) Beginning dispatch of backup to remote (googledrive)
+0039.763 (0) Google Drive: requesting access token: client_id=520776087753-jgi8e7gr4nnvdrbcv6mqmf0j9g5rkmtt.apps.googleusercontent.com
+0040.059 (0) Google Drive: successfully obtained access token
+0042.584 (0) Google Drive quota usage: used=6034.2 MB, total=17408 MB, available=11373.8 MB
+0042.624 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip: Attempting to upload to Google Drive (into folder id: 0By5PhDT5QT-bWm5NQWszYmVKTGM)
+0044.507 (0) Googledrive chunked upload: 6.8 % uploaded (1048576)
+0045.466 (0) Googledrive chunked upload: 13.6 % uploaded (2097152)
+0046.474 (0) Googledrive chunked upload: 20.3 % uploaded (3145728)
+0048.175 (0) Googledrive chunked upload: 27.1 % uploaded (4194304)
+0049.533 (0) Googledrive chunked upload: 33.9 % uploaded (5242880)
+0050.958 (0) Googledrive chunked upload: 40.7 % uploaded (6291456)
+0051.897 (0) Googledrive chunked upload: 47.4 % uploaded (7340032)
+0052.780 (0) Googledrive chunked upload: 54.2 % uploaded (8388608)
+0053.797 (0) Googledrive chunked upload: 61 % uploaded (9437184)
+0054.798 (0) Googledrive chunked upload: 67.8 % uploaded (10485760)
+0056.385 (0) Googledrive chunked upload: 74.5 % uploaded (11534336)
+0057.510 (0) Googledrive chunked upload: 81.3 % uploaded (12582912)
+0058.477 (0) Googledrive chunked upload: 88.1 % uploaded (13631488)
+0059.402 (0) Googledrive chunked upload: 94.9 % uploaded (14680064)
+0061.511 (0) Googledrive chunked upload: 100 % uploaded (14680064)
+0061.636 (0) OK: Archive backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip uploaded to Google Drive in 18.97 seconds
+0061.728 (0) Recording as successfully uploaded: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip (d8423910aaca81d1d8aa6dd0d3105d63)
+0061.923 (0) Deleting local file: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-plugins.zip: OK
+0062.702 (0) Google Drive quota usage: used=6049 MB, total=17408 MB, available=11359 MB
+0062.745 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-themes.zip: Attempting to upload to Google Drive (into folder id: 0By5PhDT5QT-bWm5NQWszYmVKTGM)
+0064.595 (0) Googledrive chunked upload: 45.6 % uploaded (1048576)
+0065.526 (0) Googledrive chunked upload: 91.3 % uploaded (2097152)
+0067.677 (0) Googledrive chunked upload: 100 % uploaded (2097152)
+0067.803 (0) OK: Archive backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-themes.zip uploaded to Google Drive in 5.02 seconds
+0067.886 (0) Recording as successfully uploaded: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-themes.zip (bd4778f7aa37814d559f13f0657616bf)
+0068.012 (0) Deleting local file: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-themes.zip: OK
+0068.802 (0) Google Drive quota usage: used=6051.2 MB, total=17408 MB, available=11356.8 MB
+0068.906 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip: Attempting to upload to Google Drive (into folder id: 0By5PhDT5QT-bWm5NQWszYmVKTGM)
+0070.814 (0) Googledrive chunked upload: 0.3 % uploaded (1048576)
+0071.689 (0) Googledrive chunked upload: 0.6 % uploaded (2097152)
+0072.631 (0) Googledrive chunked upload: 0.8 % uploaded (3145728)
+0073.515 (0) Googledrive chunked upload: 1.1 % uploaded (4194304)
+0074.565 (0) Googledrive chunked upload: 1.4 % uploaded (5242880)
+0076.240 (0) Googledrive chunked upload: 1.7 % uploaded (6291456)
+0077.932 (0) Googledrive chunked upload: 1.9 % uploaded (7340032)
+0078.866 (0) Googledrive chunked upload: 2.2 % uploaded (8388608)
+0079.808 (0) Googledrive chunked upload: 2.5 % uploaded (9437184)
+0080.758 (0) Googledrive chunked upload: 2.8 % uploaded (10485760)
+0081.815 (0) Googledrive chunked upload: 3 % uploaded (11534336)
+0082.798 (0) Googledrive chunked upload: 3.3 % uploaded (12582912)
+0083.765 (0) Googledrive chunked upload: 3.6 % uploaded (13631488)
+0084.651 (0) Googledrive chunked upload: 3.9 % uploaded (14680064)
+0085.518 (0) Googledrive chunked upload: 4.1 % uploaded (15728640)
+0086.452 (0) Googledrive chunked upload: 4.4 % uploaded (16777216)
+0087.361 (0) Googledrive chunked upload: 4.7 % uploaded (17825792)
+0088.245 (0) Googledrive chunked upload: 5 % uploaded (18874368)
+0089.637 (0) Googledrive chunked upload: 5.3 % uploaded (19922944)
+0090.471 (0) Googledrive chunked upload: 5.5 % uploaded (20971520)
+0091.330 (0) Googledrive chunked upload: 5.8 % uploaded (22020096)
+0092.196 (0) Googledrive chunked upload: 6.1 % uploaded (23068672)
+0093.089 (0) Googledrive chunked upload: 6.4 % uploaded (24117248)
+0094.138 (0) Googledrive chunked upload: 6.6 % uploaded (25165824)
+0095.524 (0) Googledrive chunked upload: 6.9 % uploaded (26214400)
+0096.342 (0) Googledrive chunked upload: 7.2 % uploaded (27262976)
+0097.634 (0) Googledrive chunked upload: 7.5 % uploaded (28311552)
+0098.560 (0) Googledrive chunked upload: 7.7 % uploaded (29360128)
+0099.502 (0) Googledrive chunked upload: 8 % uploaded (30408704)
+0100.452 (0) Googledrive chunked upload: 8.3 % uploaded (31457280)
+0101.411 (0) Googledrive chunked upload: 8.6 % uploaded (32505856)
+0102.761 (0) Googledrive chunked upload: 8.9 % uploaded (33554432)
+0103.754 (0) Googledrive chunked upload: 9.1 % uploaded (34603008)
+0104.589 (0) Googledrive chunked upload: 9.4 % uploaded (35651584)
+0105.506 (0) Googledrive chunked upload: 9.7 % uploaded (36700160)
+0106.423 (0) Googledrive chunked upload: 10 % uploaded (37748736)
+0107.865 (0) Googledrive chunked upload: 10.2 % uploaded (38797312)
+0108.857 (0) Googledrive chunked upload: 10.5 % uploaded (39845888)
+0109.824 (0) Googledrive chunked upload: 10.8 % uploaded (40894464)
+0110.750 (0) Googledrive chunked upload: 11.1 % uploaded (41943040)
+0111.634 (0) Googledrive chunked upload: 11.3 % uploaded (42991616)
+0112.552 (0) Googledrive chunked upload: 11.6 % uploaded (44040192)
+0113.327 (0) Googledrive chunked upload: 11.9 % uploaded (45088768)
+0114.311 (0) Googledrive chunked upload: 12.2 % uploaded (46137344)
+0115.845 (0) Googledrive chunked upload: 12.4 % uploaded (47185920)
+0117.629 (0) Googledrive chunked upload: 12.7 % uploaded (48234496)
+0118.429 (0) Googledrive chunked upload: 13 % uploaded (49283072)
+0119.380 (0) Googledrive chunked upload: 13.3 % uploaded (50331648)
+0120.297 (0) Googledrive chunked upload: 13.6 % uploaded (51380224)
+0121.347 (0) Googledrive chunked upload: 13.8 % uploaded (52428800)
+0122.773 (0) Googledrive chunked upload: 14.1 % uploaded (53477376)
+0123.724 (0) Googledrive chunked upload: 14.4 % uploaded (54525952)
+0125.683 (0) Googledrive chunked upload: 14.7 % uploaded (55574528)
+0126.583 (0) Googledrive chunked upload: 14.9 % uploaded (56623104)
+0127.508 (0) Googledrive chunked upload: 15.2 % uploaded (57671680)
+0128.433 (0) Googledrive chunked upload: 15.5 % uploaded (58720256)
+0129.317 (0) Googledrive chunked upload: 15.8 % uploaded (59768832)
+0130.168 (0) Googledrive chunked upload: 16 % uploaded (60817408)
+0131.043 (0) Googledrive chunked upload: 16.3 % uploaded (61865984)
+0131.993 (0) Googledrive chunked upload: 16.6 % uploaded (62914560)
+0133.093 (0) Googledrive chunked upload: 16.9 % uploaded (63963136)
+0134.085 (0) Googledrive chunked upload: 17.1 % uploaded (65011712)
+0135.019 (0) Googledrive chunked upload: 17.4 % uploaded (66060288)
+0135.987 (0) Googledrive chunked upload: 17.7 % uploaded (67108864)
+0136.887 (0) Googledrive chunked upload: 18 % uploaded (68157440)
+0138.363 (0) Googledrive chunked upload: 18.3 % uploaded (69206016)
+0139.330 (0) Googledrive chunked upload: 18.5 % uploaded (70254592)
+0140.288 (0) Googledrive chunked upload: 18.8 % uploaded (71303168)
+0141.272 (0) Googledrive chunked upload: 19.1 % uploaded (72351744)
+0142.097 (0) Googledrive chunked upload: 19.4 % uploaded (73400320)
+0142.998 (0) Googledrive chunked upload: 19.6 % uploaded (74448896)
+0144.007 (0) Googledrive chunked upload: 19.9 % uploaded (75497472)
+0144.948 (0) Googledrive chunked upload: 20.2 % uploaded (76546048)
+0145.916 (0) Googledrive chunked upload: 20.5 % uploaded (77594624)
+0146.925 (0) Googledrive chunked upload: 20.7 % uploaded (78643200)
+0148.592 (0) Googledrive chunked upload: 21 % uploaded (79691776)
+0149.651 (0) Googledrive chunked upload: 21.3 % uploaded (80740352)
+0150.693 (0) Googledrive chunked upload: 21.6 % uploaded (81788928)
+0151.668 (0) Googledrive chunked upload: 21.9 % uploaded (82837504)
+0152.601 (0) Googledrive chunked upload: 22.1 % uploaded (83886080)
+0153.660 (0) Googledrive chunked upload: 22.4 % uploaded (84934656)
+0154.592 (0) Googledrive chunked upload: 22.7 % uploaded (85983232)
+0155.444 (0) Googledrive chunked upload: 23 % uploaded (87031808)
+0156.419 (0) Googledrive chunked upload: 23.2 % uploaded (88080384)
+0157.370 (0) Googledrive chunked upload: 23.5 % uploaded (89128960)
+0158.287 (0) Googledrive chunked upload: 23.8 % uploaded (90177536)
+0159.979 (0) Googledrive chunked upload: 24.1 % uploaded (91226112)
+0162.470 (0) Googledrive chunked upload: 24.3 % uploaded (92274688)
+0164.330 (0) Googledrive chunked upload: 24.6 % uploaded (93323264)
+0165.797 (0) Googledrive chunked upload: 24.9 % uploaded (94371840)
+0167.381 (0) Googledrive chunked upload: 25.2 % uploaded (95420416)
+0169.004 (0) Googledrive chunked upload: 25.4 % uploaded (96468992)
+0170.524 (0) Googledrive chunked upload: 25.7 % uploaded (97517568)
+0171.833 (0) Googledrive chunked upload: 26 % uploaded (98566144)
+0173.358 (0) Googledrive chunked upload: 26.3 % uploaded (99614720)
+0174.883 (0) Googledrive chunked upload: 26.6 % uploaded (100663296)
+0176.500 (0) Googledrive chunked upload: 26.8 % uploaded (101711872)
+0177.864 (0) Googledrive chunked upload: 27.1 % uploaded (102760448)
+0179.323 (0) Googledrive chunked upload: 27.4 % uploaded (103809024)
+0180.659 (0) Googledrive chunked upload: 27.7 % uploaded (104857600)
+0181.993 (0) Googledrive chunked upload: 27.9 % uploaded (105906176)
+0183.574 (0) Googledrive chunked upload: 28.2 % uploaded (106954752)
+0184.786 (0) Googledrive chunked upload: 28.5 % uploaded (108003328)
+0186.177 (0) Googledrive chunked upload: 28.8 % uploaded (109051904)
+0187.466 (0) Googledrive chunked upload: 29 % uploaded (110100480)
+0188.916 (0) Googledrive chunked upload: 29.3 % uploaded (111149056)
+0190.528 (0) Googledrive chunked upload: 29.6 % uploaded (112197632)
+0191.920 (0) Googledrive chunked upload: 29.9 % uploaded (113246208)
+0193.284 (0) Googledrive chunked upload: 30.1 % uploaded (114294784)
+0194.643 (0) Googledrive chunked upload: 30.4 % uploaded (115343360)
+0196.044 (0) Googledrive chunked upload: 30.7 % uploaded (116391936)
+0197.472 (0) Googledrive chunked upload: 31 % uploaded (117440512)
+0198.744 (0) Googledrive chunked upload: 31.3 % uploaded (118489088)
+0200.156 (0) Googledrive chunked upload: 31.5 % uploaded (119537664)
+0201.527 (0) Googledrive chunked upload: 31.8 % uploaded (120586240)
+0202.814 (0) Googledrive chunked upload: 32.1 % uploaded (121634816)
+0204.161 (0) Googledrive chunked upload: 32.4 % uploaded (122683392)
+0205.606 (0) Googledrive chunked upload: 32.6 % uploaded (123731968)
+0206.948 (0) Googledrive chunked upload: 32.9 % uploaded (124780544)
+0208.554 (0) Googledrive chunked upload: 33.2 % uploaded (125829120)
+0209.962 (0) Googledrive chunked upload: 33.5 % uploaded (126877696)
+0211.388 (0) Googledrive chunked upload: 33.7 % uploaded (127926272)
+0212.625 (0) Googledrive chunked upload: 34 % uploaded (128974848)
+0213.984 (0) Googledrive chunked upload: 34.3 % uploaded (130023424)
+0215.510 (0) Googledrive chunked upload: 34.6 % uploaded (131072000)
+0216.860 (0) Googledrive chunked upload: 34.9 % uploaded (132120576)
+0218.193 (0) Googledrive chunked upload: 35.1 % uploaded (133169152)
+0219.535 (0) Googledrive chunked upload: 35.4 % uploaded (134217728)
+0220.943 (0) Googledrive chunked upload: 35.7 % uploaded (135266304)
+0222.482 (0) Googledrive chunked upload: 36 % uploaded (136314880)
+0223.832 (0) Googledrive chunked upload: 36.2 % uploaded (137363456)
+0225.065 (0) Googledrive chunked upload: 36.5 % uploaded (138412032)
+0226.557 (0) Googledrive chunked upload: 36.8 % uploaded (139460608)
+0227.916 (0) Googledrive chunked upload: 37.1 % uploaded (140509184)
+0229.362 (0) Googledrive chunked upload: 37.3 % uploaded (141557760)
+0230.608 (0) Googledrive chunked upload: 37.6 % uploaded (142606336)
+0231.979 (0) Googledrive chunked upload: 37.9 % uploaded (143654912)
+0233.555 (0) Googledrive chunked upload: 38.2 % uploaded (144703488)
+0235.097 (0) Googledrive chunked upload: 38.4 % uploaded (145752064)
+0236.448 (0) Googledrive chunked upload: 38.7 % uploaded (146800640)
+0237.818 (0) Googledrive chunked upload: 39 % uploaded (147849216)
+0239.268 (0) Googledrive chunked upload: 39.3 % uploaded (148897792)
+0240.702 (0) Googledrive chunked upload: 39.6 % uploaded (149946368)
+0242.118 (0) Googledrive chunked upload: 39.8 % uploaded (150994944)
+0243.569 (0) Googledrive chunked upload: 40.1 % uploaded (152043520)
+0245.227 (0) Googledrive chunked upload: 40.4 % uploaded (153092096)
+0246.910 (0) Googledrive chunked upload: 40.7 % uploaded (154140672)
+0248.541 (0) Googledrive chunked upload: 40.9 % uploaded (155189248)
+0250.042 (0) Googledrive chunked upload: 41.2 % uploaded (156237824)
+0251.470 (0) Googledrive chunked upload: 41.5 % uploaded (157286400)
+0252.762 (0) Googledrive chunked upload: 41.8 % uploaded (158334976)
+0254.212 (0) Googledrive chunked upload: 42 % uploaded (159383552)
+0255.796 (0) Googledrive chunked upload: 42.3 % uploaded (160432128)
+0257.221 (0) Googledrive chunked upload: 42.6 % uploaded (161480704)
+0258.679 (0) Googledrive chunked upload: 42.9 % uploaded (162529280)
+0260.262 (0) Googledrive chunked upload: 43.1 % uploaded (163577856)
+0261.804 (0) Googledrive chunked upload: 43.4 % uploaded (164626432)
+0263.037 (0) Googledrive chunked upload: 43.7 % uploaded (165675008)
+0264.697 (0) Googledrive chunked upload: 44 % uploaded (166723584)
+0266.395 (0) Googledrive chunked upload: 44.3 % uploaded (167772160)
+0267.904 (0) Googledrive chunked upload: 44.5 % uploaded (168820736)
+0269.439 (0) Googledrive chunked upload: 44.8 % uploaded (169869312)
+0270.931 (0) Googledrive chunked upload: 45.1 % uploaded (170917888)
+0272.531 (0) Googledrive chunked upload: 45.4 % uploaded (171966464)
+0273.865 (0) Googledrive chunked upload: 45.6 % uploaded (173015040)
+0275.406 (0) Googledrive chunked upload: 45.9 % uploaded (174063616)
+0276.932 (0) Googledrive chunked upload: 46.2 % uploaded (175112192)
+0278.583 (0) Googledrive chunked upload: 46.5 % uploaded (176160768)
+0280.000 (0) Googledrive chunked upload: 46.7 % uploaded (177209344)
+0281.500 (0) Googledrive chunked upload: 47 % uploaded (178257920)
+0283.083 (0) Googledrive chunked upload: 47.3 % uploaded (179306496)
+0284.451 (0) Googledrive chunked upload: 47.6 % uploaded (180355072)
+0285.917 (0) Googledrive chunked upload: 47.9 % uploaded (181403648)
+0287.435 (0) Googledrive chunked upload: 48.1 % uploaded (182452224)
+0288.726 (0) Googledrive chunked upload: 48.4 % uploaded (183500800)
+0290.044 (0) Googledrive chunked upload: 48.7 % uploaded (184549376)
+0291.528 (0) Googledrive chunked upload: 49 % uploaded (185597952)
+0293.044 (0) Googledrive chunked upload: 49.2 % uploaded (186646528)
+0294.604 (0) Googledrive chunked upload: 49.5 % uploaded (187695104)
+0296.120 (0) Googledrive chunked upload: 49.8 % uploaded (188743680)
+0297.496 (0) Googledrive chunked upload: 50.1 % uploaded (189792256)
+0298.846 (0) Googledrive chunked upload: 50.3 % uploaded (190840832)
+0300.530 (0) Googledrive chunked upload: 50.6 % uploaded (191889408)
+0301.697 (0) Googledrive chunked upload: 50.9 % uploaded (192937984)
+0302.947 (0) Googledrive chunked upload: 51.2 % uploaded (193986560)
+0304.456 (0) Googledrive chunked upload: 51.4 % uploaded (195035136)
+0305.831 (0) Googledrive chunked upload: 51.7 % uploaded (196083712)
+0307.123 (0) Googledrive chunked upload: 52 % uploaded (197132288)
+0308.532 (0) Googledrive chunked upload: 52.3 % uploaded (198180864)
+0309.757 (0) Googledrive chunked upload: 52.6 % uploaded (199229440)
+0311.132 (0) Googledrive chunked upload: 52.8 % uploaded (200278016)
+0312.566 (0) Googledrive chunked upload: 53.1 % uploaded (201326592)
+0313.858 (0) Googledrive chunked upload: 53.4 % uploaded (202375168)
+0315.158 (0) Googledrive chunked upload: 53.7 % uploaded (203423744)
+0316.576 (0) Googledrive chunked upload: 53.9 % uploaded (204472320)
+0317.859 (0) Googledrive chunked upload: 54.2 % uploaded (205520896)
+0319.051 (0) Googledrive chunked upload: 54.5 % uploaded (206569472)
+0320.377 (0) Googledrive chunked upload: 54.8 % uploaded (207618048)
+0321.577 (0) Googledrive chunked upload: 55 % uploaded (208666624)
+0322.794 (0) Googledrive chunked upload: 55.3 % uploaded (209715200)
+0324.027 (0) Googledrive chunked upload: 55.6 % uploaded (210763776)
+0325.194 (0) Googledrive chunked upload: 55.9 % uploaded (211812352)
+0326.753 (0) Googledrive chunked upload: 56.1 % uploaded (212860928)
+0328.078 (0) Googledrive chunked upload: 56.4 % uploaded (213909504)
+0329.495 (0) Googledrive chunked upload: 56.7 % uploaded (214958080)
+0330.779 (0) Googledrive chunked upload: 57 % uploaded (216006656)
+0332.028 (0) Googledrive chunked upload: 57.3 % uploaded (217055232)
+0333.328 (0) Googledrive chunked upload: 57.5 % uploaded (218103808)
+0334.762 (0) Googledrive chunked upload: 57.8 % uploaded (219152384)
+0336.115 (0) Googledrive chunked upload: 58.1 % uploaded (220200960)
+0337.274 (0) Googledrive chunked upload: 58.4 % uploaded (221249536)
+0338.650 (0) Googledrive chunked upload: 58.6 % uploaded (222298112)
+0339.843 (0) Googledrive chunked upload: 58.9 % uploaded (223346688)
+0341.134 (0) Googledrive chunked upload: 59.2 % uploaded (224395264)
+0342.226 (0) Googledrive chunked upload: 59.5 % uploaded (225443840)
+0343.521 (0) Googledrive chunked upload: 59.7 % uploaded (226492416)
+0344.755 (0) Googledrive chunked upload: 60 % uploaded (227540992)
+0346.064 (0) Googledrive chunked upload: 60.3 % uploaded (228589568)
+0347.315 (0) Googledrive chunked upload: 60.6 % uploaded (229638144)
+0348.522 (0) Googledrive chunked upload: 60.8 % uploaded (230686720)
+0349.791 (0) Googledrive chunked upload: 61.1 % uploaded (231735296)
+0351.108 (0) Googledrive chunked upload: 61.4 % uploaded (232783872)
+0352.249 (0) Googledrive chunked upload: 61.7 % uploaded (233832448)
+0353.716 (0) Googledrive chunked upload: 62 % uploaded (234881024)
+0354.985 (0) Googledrive chunked upload: 62.2 % uploaded (235929600)
+0356.218 (0) Googledrive chunked upload: 62.5 % uploaded (236978176)
+0357.528 (0) Googledrive chunked upload: 62.8 % uploaded (238026752)
+0358.835 (0) Googledrive chunked upload: 63.1 % uploaded (239075328)
+0359.910 (0) Googledrive chunked upload: 63.3 % uploaded (240123904)
+0361.204 (0) Googledrive chunked upload: 63.6 % uploaded (241172480)
+0362.596 (0) Googledrive chunked upload: 63.9 % uploaded (242221056)
+0364.022 (0) Googledrive chunked upload: 64.2 % uploaded (243269632)
+0365.255 (0) Googledrive chunked upload: 64.4 % uploaded (244318208)
+0366.522 (0) Googledrive chunked upload: 64.7 % uploaded (245366784)
+0367.770 (0) Googledrive chunked upload: 65 % uploaded (246415360)
+0368.987 (0) Googledrive chunked upload: 65.3 % uploaded (247463936)
+0370.187 (0) Googledrive chunked upload: 65.6 % uploaded (248512512)
+0371.554 (0) Googledrive chunked upload: 65.8 % uploaded (249561088)
+0372.913 (0) Googledrive chunked upload: 66.1 % uploaded (250609664)
+0374.138 (0) Googledrive chunked upload: 66.4 % uploaded (251658240)
+0375.389 (0) Googledrive chunked upload: 66.7 % uploaded (252706816)
+0376.725 (0) Googledrive chunked upload: 66.9 % uploaded (253755392)
+0377.925 (0) Googledrive chunked upload: 67.2 % uploaded (254803968)
+0379.209 (0) Googledrive chunked upload: 67.5 % uploaded (255852544)
+0380.715 (0) Googledrive chunked upload: 67.8 % uploaded (256901120)
+0382.032 (0) Googledrive chunked upload: 68 % uploaded (257949696)
+0383.524 (0) Googledrive chunked upload: 68.3 % uploaded (258998272)
+0384.686 (0) Googledrive chunked upload: 68.6 % uploaded (260046848)
+0385.991 (0) Googledrive chunked upload: 68.9 % uploaded (261095424)
+0387.303 (0) Googledrive chunked upload: 69.1 % uploaded (262144000)
+0388.653 (0) Googledrive chunked upload: 69.4 % uploaded (263192576)
+0389.961 (0) Googledrive chunked upload: 69.7 % uploaded (264241152)
+0391.266 (0) Googledrive chunked upload: 70 % uploaded (265289728)
+0392.809 (0) Googledrive chunked upload: 70.3 % uploaded (266338304)
+0394.063 (0) Googledrive chunked upload: 70.5 % uploaded (267386880)
+0395.439 (0) Googledrive chunked upload: 70.8 % uploaded (268435456)
+0396.738 (0) Googledrive chunked upload: 71.1 % uploaded (269484032)
+0398.089 (0) Googledrive chunked upload: 71.4 % uploaded (270532608)
+0399.397 (0) Googledrive chunked upload: 71.6 % uploaded (271581184)
+0401.072 (0) Googledrive chunked upload: 71.9 % uploaded (272629760)
+0402.073 (0) Googledrive chunked upload: 72.2 % uploaded (273678336)
+0403.173 (0) Googledrive chunked upload: 72.5 % uploaded (274726912)
+0404.144 (0) Googledrive chunked upload: 72.7 % uploaded (275775488)
+0405.061 (0) Googledrive chunked upload: 73 % uploaded (276824064)
+0405.979 (0) Googledrive chunked upload: 73.3 % uploaded (277872640)
+0406.913 (0) Googledrive chunked upload: 73.6 % uploaded (278921216)
+0407.914 (0) Googledrive chunked upload: 73.8 % uploaded (279969792)
+0408.831 (0) Googledrive chunked upload: 74.1 % uploaded (281018368)
+0410.661 (0) Googledrive chunked upload: 74.4 % uploaded (282066944)
+0411.953 (0) Googledrive chunked upload: 74.7 % uploaded (283115520)
+0412.870 (0) Googledrive chunked upload: 75 % uploaded (284164096)
+0413.770 (0) Googledrive chunked upload: 75.2 % uploaded (285212672)
+0414.749 (0) Googledrive chunked upload: 75.5 % uploaded (286261248)
+0415.745 (0) Googledrive chunked upload: 75.8 % uploaded (287309824)
+0416.675 (0) Googledrive chunked upload: 76.1 % uploaded (288358400)
+0417.708 (0) Googledrive chunked upload: 76.3 % uploaded (289406976)
+0418.634 (0) Googledrive chunked upload: 76.6 % uploaded (290455552)
+0419.472 (0) Googledrive chunked upload: 76.9 % uploaded (291504128)
+0420.873 (0) Googledrive chunked upload: 77.2 % uploaded (292552704)
+0421.773 (0) Googledrive chunked upload: 77.4 % uploaded (293601280)
+0422.785 (0) Googledrive chunked upload: 77.7 % uploaded (294649856)
+0423.666 (0) Googledrive chunked upload: 78 % uploaded (295698432)
+0424.483 (0) Googledrive chunked upload: 78.3 % uploaded (296747008)
+0426.767 (0) Googledrive chunked upload: 78.6 % uploaded (297795584)
+0427.746 (0) Googledrive chunked upload: 78.8 % uploaded (298844160)
+0428.763 (0) Googledrive chunked upload: 79.1 % uploaded (299892736)
+0429.796 (0) Googledrive chunked upload: 79.4 % uploaded (300941312)
+0430.880 (0) Googledrive chunked upload: 79.7 % uploaded (301989888)
+0431.972 (0) Googledrive chunked upload: 79.9 % uploaded (303038464)
+0433.647 (0) Googledrive chunked upload: 80.2 % uploaded (304087040)
+0434.805 (0) Googledrive chunked upload: 80.5 % uploaded (305135616)
+0435.897 (0) Googledrive chunked upload: 80.8 % uploaded (306184192)
+0436.989 (0) Googledrive chunked upload: 81 % uploaded (307232768)
+0438.114 (0) Googledrive chunked upload: 81.3 % uploaded (308281344)
+0439.062 (0) Googledrive chunked upload: 81.6 % uploaded (309329920)
+0440.154 (0) Googledrive chunked upload: 81.9 % uploaded (310378496)
+0441.180 (0) Googledrive chunked upload: 82.1 % uploaded (311427072)
+0442.266 (0) Googledrive chunked upload: 82.4 % uploaded (312475648)
+0443.175 (0) Googledrive chunked upload: 82.7 % uploaded (313524224)
+0444.196 (0) Googledrive chunked upload: 83 % uploaded (314572800)
+0445.251 (0) Googledrive chunked upload: 83.3 % uploaded (315621376)
+0446.352 (0) Googledrive chunked upload: 83.5 % uploaded (316669952)
+0447.453 (0) Googledrive chunked upload: 83.8 % uploaded (317718528)
+0448.626 (0) Googledrive chunked upload: 84.1 % uploaded (318767104)
+0449.652 (0) Googledrive chunked upload: 84.4 % uploaded (319815680)
+0450.721 (0) Googledrive chunked upload: 84.6 % uploaded (320864256)
+0451.730 (0) Googledrive chunked upload: 84.9 % uploaded (321912832)
+0452.740 (0) Googledrive chunked upload: 85.2 % uploaded (322961408)
+0453.815 (0) Googledrive chunked upload: 85.5 % uploaded (324009984)
+0454.757 (0) Googledrive chunked upload: 85.7 % uploaded (325058560)
+0455.967 (0) Googledrive chunked upload: 86 % uploaded (326107136)
+0457.067 (0) Googledrive chunked upload: 86.3 % uploaded (327155712)
+0458.118 (0) Googledrive chunked upload: 86.6 % uploaded (328204288)
+0459.017 (0) Googledrive chunked upload: 86.8 % uploaded (329252864)
+0459.963 (0) Googledrive chunked upload: 87.1 % uploaded (330301440)
+0460.930 (0) Googledrive chunked upload: 87.4 % uploaded (331350016)
+0461.939 (0) Googledrive chunked upload: 87.7 % uploaded (332398592)
+0462.957 (0) Googledrive chunked upload: 88 % uploaded (333447168)
+0463.999 (0) Googledrive chunked upload: 88.2 % uploaded (334495744)
+0465.040 (0) Googledrive chunked upload: 88.5 % uploaded (335544320)
+0466.118 (0) Googledrive chunked upload: 88.8 % uploaded (336592896)
+0466.977 (0) Googledrive chunked upload: 89.1 % uploaded (337641472)
+0468.119 (0) Googledrive chunked upload: 89.3 % uploaded (338690048)
+0469.102 (0) Googledrive chunked upload: 89.6 % uploaded (339738624)
+0470.196 (0) Googledrive chunked upload: 89.9 % uploaded (340787200)
+0471.255 (0) Googledrive chunked upload: 90.2 % uploaded (341835776)
+0472.255 (0) Googledrive chunked upload: 90.4 % uploaded (342884352)
+0473.239 (0) Googledrive chunked upload: 90.7 % uploaded (343932928)
+0474.348 (0) Googledrive chunked upload: 91 % uploaded (344981504)
+0475.417 (0) Googledrive chunked upload: 91.3 % uploaded (346030080)
+0476.526 (0) Googledrive chunked upload: 91.6 % uploaded (347078656)
+0477.618 (0) Googledrive chunked upload: 91.8 % uploaded (348127232)
+0478.553 (0) Googledrive chunked upload: 92.1 % uploaded (349175808)
+0479.503 (0) Googledrive chunked upload: 92.4 % uploaded (350224384)
+0480.487 (0) Googledrive chunked upload: 92.7 % uploaded (351272960)
+0481.545 (0) Googledrive chunked upload: 92.9 % uploaded (352321536)
+0482.537 (0) Googledrive chunked upload: 93.2 % uploaded (353370112)
+0483.646 (0) Googledrive chunked upload: 93.5 % uploaded (354418688)
+0484.738 (0) Googledrive chunked upload: 93.8 % uploaded (355467264)
+0485.739 (0) Googledrive chunked upload: 94 % uploaded (356515840)
+0486.740 (0) Googledrive chunked upload: 94.3 % uploaded (357564416)
+0487.807 (0) Googledrive chunked upload: 94.6 % uploaded (358612992)
+0488.941 (0) Googledrive chunked upload: 94.9 % uploaded (359661568)
+0490.083 (0) Googledrive chunked upload: 95.1 % uploaded (360710144)
+0491.300 (0) Googledrive chunked upload: 95.4 % uploaded (361758720)
+0492.401 (0) Googledrive chunked upload: 95.7 % uploaded (362807296)
+0493.535 (0) Googledrive chunked upload: 96 % uploaded (363855872)
+0494.710 (0) Googledrive chunked upload: 96.3 % uploaded (364904448)
+0495.845 (0) Googledrive chunked upload: 96.5 % uploaded (365953024)
+0496.887 (0) Googledrive chunked upload: 96.8 % uploaded (367001600)
+0497.988 (0) Googledrive chunked upload: 97.1 % uploaded (368050176)
+0499.088 (0) Googledrive chunked upload: 97.4 % uploaded (369098752)
+0500.231 (0) Googledrive chunked upload: 97.6 % uploaded (370147328)
+0501.390 (0) Googledrive chunked upload: 97.9 % uploaded (371195904)
+0502.407 (0) Googledrive chunked upload: 98.2 % uploaded (372244480)
+0503.442 (0) Googledrive chunked upload: 98.5 % uploaded (373293056)
+0504.526 (0) Googledrive chunked upload: 98.7 % uploaded (374341632)
+0505.634 (0) Googledrive chunked upload: 99 % uploaded (375390208)
+0506.775 (0) Googledrive chunked upload: 99.3 % uploaded (376438784)
+0507.861 (0) Googledrive chunked upload: 99.6 % uploaded (377487360)
+0509.046 (0) Googledrive chunked upload: 99.8 % uploaded (378535936)
+0511.396 (0) Googledrive chunked upload: 100 % uploaded (378535936)
+0511.523 (0) OK: Archive backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip uploaded to Google Drive in 442.58 seconds
+0511.598 (0) Recording as successfully uploaded: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip (69f65103db6f4cc84e692274d844a83e)
+0511.799 (0) Deleting local file: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-uploads.zip: OK
+0512.622 (0) Google Drive quota usage: used=6412.7 MB, total=17408 MB, available=10995.3 MB
+0512.657 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-others.zip: Attempting to upload to Google Drive (into folder id: 0By5PhDT5QT-bWm5NQWszYmVKTGM)
+0515.599 (0) Googledrive chunked upload: 100 % uploaded
+0515.716 (0) OK: Archive backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-others.zip uploaded to Google Drive in 3.02 seconds
+0515.792 (0) Recording as successfully uploaded: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-others.zip (e05fe331e8bf516cffae40c1be0ef166)
+0515.909 (0) Deleting local file: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-others.zip: OK
+0516.659 (0) Google Drive quota usage: used=6412.7 MB, total=17408 MB, available=10995.3 MB
+0516.700 (0) backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db.gz: Attempting to upload to Google Drive (into folder id: 0By5PhDT5QT-bWm5NQWszYmVKTGM)
+0518.700 (0) Googledrive chunked upload: 51.7 % uploaded (1048576)
+0521.115 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0521.236 (0) OK: Archive backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db.gz uploaded to Google Drive in 4.5 seconds
+0521.319 (0) Recording as successfully uploaded: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db.gz (d78d5980883e9e978bde068ecc203f09)
+0521.445 (0) Deleting local file: backup_2017-08-18-0047_IIITA_Model_United_Nations_f49b9960a2a7-db.gz: OK
+0521.529 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0521.568 (0) Number of backup sets in history: 3; groups (db): 1
+0521.609 (0) Examining (for databases) backup set with group_id=0, nonce=f49b9960a2a7, datestamp=1502997458 (Aug 17 2017 19:17:38)
+0521.651 (0) This backup set is the backup set just made, so will not be deleted.
+0521.692 (0) Examining (for databases) backup set with group_id=0, nonce=8f7ebd904990, datestamp=1502392225 (Aug 10 2017 19:10:25)
+0521.729 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0521.768 (0) Examining (for databases) backup set with group_id=0, nonce=09487c684065, datestamp=1501787755 (Aug 03 2017 19:15:55)
+0521.809 (0) 1501787755: db: this set includes a database (backup_2017-08-04-0045_IIITA_Model_United_Nations_09487c684065-db.gz); db count is now 2
+0521.846 (0) 1501787755: db: over retain limit (2); will delete this database
+0521.885 (0) Delete file: backup_2017-08-04-0045_IIITA_Model_United_Nations_09487c684065-db.gz, service=googledrive
+0524.159 (0) backup_2017-08-04-0045_IIITA_Model_United_Nations_09487c684065-db.gz: Deletion successful
+0524.255 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0524.293 (0) Number of backup sets in history: 3; groups (files): 1
+0524.335 (0) Examining (for files) backup set with nonce=f49b9960a2a7, datestamp=1502997458 (Aug 17 2017 19:17:38)
+0524.377 (0) This backup set is the backup set just made, so will not be deleted.
+0524.430 (0) This backup set is the backup set just made, so will not be deleted.
+0524.469 (0) This backup set is the backup set just made, so will not be deleted.
+0524.469 (0) This backup set is the backup set just made, so will not be deleted.
+0524.469 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0524.510 (0) Examining (for files) backup set with nonce=8f7ebd904990, datestamp=1502392225 (Aug 10 2017 19:10:25)
+0524.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0524.581 (0) Examining (for files) backup set with nonce=09487c684065, datestamp=1501787755 (Aug 03 2017 19:15:55)
+0524.614 (0) plugins: over retain limit (2); will delete this file entity
+0524.656 (0) themes: over retain limit (2); will delete this file entity
+0524.698 (0) uploads: over retain limit (2); will delete this file entity
+0524.740 (0) others: over retain limit (2); will delete this file entity
+0524.790 (0) Delete file: backup_2017-08-04-0045_IIITA_Model_United_Nations_09487c684065-plugins.zip, service=googledrive
+0524.832 (0) Delete file: backup_2017-08-04-0045_IIITA_Model_United_Nations_09487c684065-themes.zip, service=googledrive
+0524.873 (0) Delete file: backup_2017-08-04-0045_IIITA_Model_United_Nations_09487c684065-uploads.zip, service=googledrive
+0524.915 (0) Delete file: backup_2017-08-04-0045_IIITA_Model_United_Nations_09487c684065-others.zip, service=googledrive
+0526.948 (0) backup_2017-08-04-0045_IIITA_Model_United_Nations_09487c684065-others.zip: Deletion successful
+0527.939 (0) backup_2017-08-04-0045_IIITA_Model_United_Nations_09487c684065-uploads.zip: Deletion successful
+0529.208 (0) backup_2017-08-04-0045_IIITA_Model_United_Nations_09487c684065-themes.zip: Deletion successful
+0530.198 (0) backup_2017-08-04-0045_IIITA_Model_United_Nations_09487c684065-plugins.zip: Deletion successful
+0530.281 (0) This backup set is now empty; will remove from history
+0530.323 (0) Deleting log file (log.09487c684065.txt)
+0530.385 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0530.508 (0) Resume backup (f49b9960a2a7, 0): finish run
+0530.637 (0) Decremented the semaphore (fd) by 1
+0530.721 (0) Semaphore (fd) unlocked
+0530.763 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0530.889 (0) Fetching RSS news feed
+0531.698 (0) Fetched RSS news feed; result is a: SimplePie
+0531.752 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: fahee...
+0531.820 (0) The backup apparently succeeded and is now complete
