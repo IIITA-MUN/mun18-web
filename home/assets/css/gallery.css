@@ -24,7 +24,7 @@ body, html {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  -webkit-transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-transition: all 1s cubic-bezier(0.25, 0., 0.45, 0.94);
   -moz-transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   -o-transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -42,7 +42,7 @@ body, html {
 }
 
 .notCurrent {
-  width: 16%;
+  width: 21%;
   -webkit-transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
      -moz-transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
        -o-transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
